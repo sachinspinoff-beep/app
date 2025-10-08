@@ -49,3 +49,6 @@ jobs:
         with:
           name: RemindMe-apk
           path: app/build/outputs/apk/debug/*.apk
+                - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
